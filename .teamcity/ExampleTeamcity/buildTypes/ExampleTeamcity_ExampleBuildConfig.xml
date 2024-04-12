@@ -3,6 +3,9 @@
   <name>example-build-config</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="+:**/* =&gt; example-project.jar" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="Maven2" name="Test" type="Maven2">
